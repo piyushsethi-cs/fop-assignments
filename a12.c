@@ -4,13 +4,14 @@
 int main() {
     int n,i,a,b;
     scanf("%d",&n);
+    scanf("%d",&m);
     for(i=2;i<=n;i++){
-        if(n%i==0){
+        if(n%i==0 and m%i==0){
         printf("lcd is %d",i);
         break;}
 }
     for(i=n;i>=1;i--){
-        if(n%i==0){
+        if(n%i==0 and m%i==0){
         printf("gcd is %d",i);
         break;}
 
